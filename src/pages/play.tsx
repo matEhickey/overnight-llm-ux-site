@@ -3,10 +3,10 @@ import React from 'react';
 
 export default function Play(): JSX.Element {
   return (
-    <Layout title="Play" description="Play the latest build">
+    <Layout title="Play" description="Play the current main branch build">
       <main style={{height: '100vh', display: 'flex', flexDirection: 'column'}}>
         <iframe
-          src="/game/latest/index.html"
+          src="/game/main/index.html"
           style={{
             width: '100%',
             height: '100%',
