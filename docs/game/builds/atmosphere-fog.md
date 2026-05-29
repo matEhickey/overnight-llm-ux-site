@@ -39,4 +39,4 @@ Using `useThree` inside the `Lighting` component (which is already inside the Ca
 
 ## Try it
 
-Play the latest build on the [/play](/play) page.
+Play the embedded game above, or <a href="/game/atmosphere-fog/index.html" target="_blank" rel="noopener noreferrer">open in a new tab</a>.

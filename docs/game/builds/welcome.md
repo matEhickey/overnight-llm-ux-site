@@ -37,4 +37,4 @@ The project philosophy:
 | Interact / Grab | Press **E** | Tap **E** button |
 | Throw (gravity gun) | Press **E** while holding | Tap **E** button |
 
-Play the current build on the [/play](/play) page.
+Play the embedded game above, or <a href="/game/welcome/index.html" target="_blank" rel="noopener noreferrer">open in a new tab</a>.

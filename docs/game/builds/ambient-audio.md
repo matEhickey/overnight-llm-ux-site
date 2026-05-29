@@ -42,4 +42,4 @@ The game was visually atmospheric (fog, glow materials, procedural dungeon) but 
 
 ## Try it
 
-Play the latest build on the [/play](/play) page. Click anywhere first to initialize audio (browser policy), then walk around with WASD to hear footstep sounds and orb spatial audio.
+Play the embedded game above, or <a href="/game/ambient-audio/index.html" target="_blank" rel="noopener noreferrer">open in a new tab</a>. Click anywhere first to initialize audio (browser policy), then walk around with WASD to hear footstep sounds and orb spatial audio.
