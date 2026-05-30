@@ -14,7 +14,7 @@ A GPU-friendly particle system that adds visual feedback to every gravity gun in
 
 - **Grab burst (blue):** Cyan sparks spray when you pick up an object with E
 - **Throw burst (orange):** An expanding spray of orange particles fires from the camera position when you throw
-- **Slam burst (yellow):** When a thrown object lands hard (velocity > 8 → < 2), yellow sparks explode at the impact point
+- **Slam burst (yellow):** When a fast thrown object loses more than 30% of its speed in one frame, yellow sparks explode at the impact point
 
 Particles are pooled (max 600 active) with additive blending for a glowing effect. Each burst is color-coded by event type so the feedback is immediately readable.
 
@@ -28,13 +28,13 @@ Adding visual feedback compounds on itself: every action now has a payoff, which
 
 **Particle pool** — `src/stores/particleStore.ts` manages up to 600 particles as plain objects (no Three.js objects to avoid GC pressure). Each particle stores position, velocity, life, and RGB color.
 
-**Rendering** — `src/systems/ParticleSystem.tsx` renders all active particles as a single `THREE.Points` mesh with vertex colors and additive blending. Typed arrays are mutated every frame in `useFrame` (intentional pattern, suppressed via eslint disable).
+**Rendering** — `src/components/canvas/ParticleSystem.tsx` renders all active particles as a single `THREE.Points` mesh with vertex colors and additive blending. Typed arrays are mutated every frame in `useFrame` (intentional pattern, suppressed via eslint disable).
 
 **Key rendering fixes encountered:**
 - Three.js r183 defaults `BufferAttribute` to `StaticDrawUsage` — this tells the GPU the buffer never changes, causing particle updates to silently fail when the draw range transitions from 0 to >0. Fixed by setting `.setUsage(THREE.DynamicDrawUsage)` on both position and color attributes.
 - The geometry's bounding sphere is computed only once (lazily) by Three.js for frustum culling, so `geo.computeBoundingSphere()` is called each frame after position updates to keep culling accurate.
 
-**Slam detection** — In `PhysicsObjects.tsx`, each body tracks `prevSpeed` via `useRef`. When `prev > 8 && current < 2`, a hard landing is detected and the slam burst fires.
+**Slam detection** — In `PhysicsObjects.tsx`, each body tracks `prevSpeed` via `useRef`. When a fast body loses more than 30% of its speed in one frame, a hard collision is detected and the slam burst fires. Rapier CCD keeps fast thrown balls from tunneling through colliders.
 
 **Trigger sources:**
 - `GravityGun.tryGrab()` → blue burst at object position
