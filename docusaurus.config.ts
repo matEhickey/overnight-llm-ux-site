@@ -3,19 +3,19 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Overnight Game',
-  tagline: 'A 3D exploration prototype — built one feature at a time',
+  title: 'Overnight LLM UX',
+  tagline: 'In-browser LLM UX explorations — research, build, demo',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://overnight-game.local',
+  url: 'https://overnight-llm-ux.local',
   baseUrl: '/',
 
   organizationName: 'matEhickey',
-  projectName: 'overnight-game',
+  projectName: 'overnight-llm-ux-site',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -58,20 +58,20 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Overnight Game',
+      title: 'Overnight LLM UX',
       logo: {
-        alt: 'Overnight Game Logo',
+        alt: 'Overnight LLM UX Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'gameSidebar',
+          sidebarId: 'uxSidebar',
           position: 'left',
           label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/play', label: 'Play Latest', position: 'right'},
+        {to: '/demo', label: 'Try Latest', position: 'right'},
       ],
     },
     footer: {
@@ -81,8 +81,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Game Demos',
-              to: '/docs/game',
+              label: 'UX Builds',
+              to: '/docs/ux',
             },
           ],
         },
@@ -94,13 +94,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'Play Latest',
-              to: '/play',
+              label: 'Try Latest',
+              to: '/demo',
             },
           ],
         },
       ],
-      copyright: `Overnight Game — built feature by feature`,
+      copyright: `Overnight LLM UX — one feature at a time`,
     },
     prism: {
       theme: prismThemes.github,

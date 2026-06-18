@@ -1,14 +1,14 @@
-game:
-  label: Game
-  permalink: /game
-  description: Game development posts
+ux:
+  label: UX
+  permalink: /ux
+  description: UX explorations and demos
 
-feature:
-  label: Feature
-  permalink: /feature
-  description: Individual feature builds
+model:
+  label: Model
+  permalink: /model
+  description: LLM model experiments
 
-first-impressions:
-  label: First Impressions
-  permalink: /first-impressions
-  description: First looks and initial builds
+tool:
+  label: Tool
+  permalink: /tool
+  description: Tool and agent experiments
