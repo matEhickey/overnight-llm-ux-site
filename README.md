@@ -1,41 +1,25 @@
-# Website
+# Overnight LLM UX Site
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Docusaurus site for in-browser LLM UX explorations. Built one feature at a time.
 
-## Installation
+## Structure
 
-```bash
-yarn
+```
+docs/ux/          — docs articles for each build
+docs/ux/builds/   — auto-generated doc sidebar from here
+blog/             — blog posts announcing each build
+static/ux/{slug}/ — built demo (vite build output copied here)
+src/pages/        — home page + /demo page
 ```
 
-## Local Development
+## Development
 
 ```bash
-yarn start
+npm install
+npm start          # dev server on localhost:3000
+npm run build      # static production build
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Pushed to `github.com/matEhickey/overnight-llm-ux-site`. Vercel auto-deploys on push.
