@@ -12,3 +12,8 @@ tool:
   label: Tool
   permalink: /tool
   description: Tool and agent experiments
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Local automation workflow experiments
