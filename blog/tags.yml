@@ -17,3 +17,8 @@ automation:
   label: Automation
   permalink: /automation
   description: Local automation workflow experiments
+
+rag:
+  label: RAG
+  permalink: /rag
+  description: Retrieval-augmented generation experiments
