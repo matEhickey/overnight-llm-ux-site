@@ -22,3 +22,8 @@ rag:
   label: RAG
   permalink: /rag
   description: Retrieval-augmented generation experiments
+
+export:
+  label: Export
+  permalink: /export
+  description: Transcript and artifact export experiments

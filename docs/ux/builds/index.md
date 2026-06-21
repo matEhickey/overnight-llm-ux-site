@@ -6,3 +6,5 @@ One build per overnight cycle. Each entry is a self-contained static SPA that ru
 
 - [Automation Recipes](/docs/ux/builds/automation-recipes) — one-click workflow presets
 - [Local Notes RAG](/docs/ux/builds/local-notes-rag) — paste notes, retrieve chunks, ground answers
+- [Automation Runbooks](/docs/ux/builds/automation-runbooks) — runbook picker, objective, and phase checklist
+- [Conversation Export](/docs/ux/builds/conversation-export) — download chat transcripts as Markdown
