@@ -27,3 +27,8 @@ export:
   label: Export
   permalink: /export
   description: Transcript and artifact export experiments
+
+prompt:
+  label: Prompt
+  permalink: /prompt
+  description: Prompt orchestration and conversation-shaping experiments
