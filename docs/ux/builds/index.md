@@ -9,3 +9,4 @@ One build per overnight cycle. Each entry is a self-contained static SPA that ru
 - [Automation Runbooks](/docs/ux/builds/automation-runbooks) — runbook picker, objective, and phase checklist
 - [Conversation Export](/docs/ux/builds/conversation-export) — download chat transcripts as Markdown
 - [Perspective Deck](/docs/ux/builds/perspective-deck) — lens-based prompt orchestration and starter briefs
+- [Lens A/B Runner](/docs/ux/builds/lens-ab-runner) — run two lenses against one prompt, see live metrics and a verdict
