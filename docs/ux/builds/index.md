@@ -11,3 +11,4 @@ One build per overnight cycle. Each entry is a self-contained static SPA that ru
 - [Perspective Deck](/docs/ux/builds/perspective-deck) — lens-based prompt orchestration and starter briefs
 - [Lens A/B Runner](/docs/ux/builds/lens-ab-runner) — run two lenses against one prompt, see live metrics and a verdict
 - [Reply-Shape A/B Runner](/docs/ux/builds/reply-shape-ab) — run one lens through two reply shapes, see live metrics and a verdict
+- [The Council](/docs/ux/builds/council) — convene 2–4 NPC personas, each responding to the same prompt; panel-discussion transcript with consensus / divergence card
