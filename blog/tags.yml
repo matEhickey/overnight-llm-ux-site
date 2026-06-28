@@ -32,3 +32,8 @@ prompt:
   label: Prompt
   permalink: /prompt
   description: Prompt orchestration and conversation-shaping experiments
+
+observability:
+  label: Observability
+  permalink: /observability
+  description: Engine telemetry, logs, and runtime introspection
