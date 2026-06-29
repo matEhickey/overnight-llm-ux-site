@@ -37,3 +37,8 @@ observability:
   label: Observability
   permalink: /observability
   description: Engine telemetry, logs, and runtime introspection
+
+input:
+  label: Input
+  permalink: /input
+  description: Alternative input modalities — voice, gesture, and beyond
