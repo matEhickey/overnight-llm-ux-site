@@ -42,3 +42,8 @@ input:
   label: Input
   permalink: /input
   description: Alternative input modalities — voice, gesture, and beyond
+
+fork:
+  label: Fork
+  permalink: /fork
+  description: Conversation forking — branching chat history like git
