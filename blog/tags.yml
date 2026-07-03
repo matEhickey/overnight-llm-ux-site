@@ -47,3 +47,8 @@ fork:
   label: Fork
   permalink: /fork
   description: Conversation forking — branching chat history like git
+
+playground:
+  label: Playground
+  permalink: /playground
+  description: Sampling-parameter playground and parameter sweeps
