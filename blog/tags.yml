@@ -52,3 +52,8 @@ playground:
   label: Playground
   permalink: /playground
   description: Sampling-parameter playground and parameter sweeps
+
+budget:
+  label: Budget
+  permalink: /budget
+  description: Token-budget meter, context-window awareness, and auto-prune
