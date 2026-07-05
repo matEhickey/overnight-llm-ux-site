@@ -57,3 +57,8 @@ budget:
   label: Budget
   permalink: /budget
   description: Token-budget meter, context-window awareness, and auto-prune
+
+wire:
+  label: Wire
+  permalink: /wire
+  description: Wire-format introspection — see exactly what the engine sends to the model
