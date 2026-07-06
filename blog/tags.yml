@@ -62,3 +62,8 @@ wire:
   label: Wire
   permalink: /wire
   description: Wire-format introspection — see exactly what the engine sends to the model
+
+mosaic:
+  label: Mosaic
+  permalink: /mosaic
+  description: Token-level visual rhythm and temporal replay of the response stream
