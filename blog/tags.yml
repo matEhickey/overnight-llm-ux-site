@@ -67,3 +67,8 @@ mosaic:
   label: Mosaic
   permalink: /mosaic
   description: Token-level visual rhythm and temporal replay of the response stream
+
+drift-trail:
+  label: Drift Trail
+  permalink: /drift-trail
+  description: Conversation-as-trajectory — visualize the semantic drift of a dialogue through feature space
