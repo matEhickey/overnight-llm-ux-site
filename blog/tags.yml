@@ -72,3 +72,8 @@ drift-trail:
   label: Drift Trail
   permalink: /drift-trail
   description: Conversation-as-trajectory — visualize the semantic drift of a dialogue through feature space
+
+memory-vault:
+  label: Memory Vault
+  permalink: /memory-vault
+  description: Persistent cross-conversation memory store — named facts auto-injected into every system prompt
