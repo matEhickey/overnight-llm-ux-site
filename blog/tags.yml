@@ -77,3 +77,7 @@ memory-vault:
   label: Memory Vault
   permalink: /memory-vault
   description: Persistent cross-conversation memory store — named facts auto-injected into every system prompt
+tts:
+  label: TTS
+  permalink: /tts
+  description: Text-to-speech output for LLM chat
