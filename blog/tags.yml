@@ -81,3 +81,8 @@ tts:
   label: TTS
   permalink: /tts
   description: Text-to-speech output for LLM chat
+
+code:
+  label: Code
+  permalink: /code
+  description: Interactive code blocks — syntax-highlighted, copyable, and (for JS/TS) executable in a sandboxed iframe
