@@ -86,3 +86,8 @@ code:
   label: Code
   permalink: /code
   description: Interactive code blocks — syntax-highlighted, copyable, and (for JS/TS) executable in a sandboxed iframe
+
+sticky-board:
+  label: Sticky Board
+  permalink: /sticky-board
+  description: Per-message annotation layer — pin, tag, and note any message; curate your own conversation board and export it as Markdown
