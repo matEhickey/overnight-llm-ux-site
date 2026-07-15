@@ -91,3 +91,8 @@ sticky-board:
   label: Sticky Board
   permalink: /sticky-board
   description: Per-message annotation layer — pin, tag, and note any message; curate your own conversation board and export it as Markdown
+
+style:
+  label: Style
+  permalink: /style
+  description: Re-style committed assistant replies in different formats via sub-context regeneration
