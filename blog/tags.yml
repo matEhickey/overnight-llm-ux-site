@@ -96,3 +96,8 @@ style:
   label: Style
   permalink: /style
   description: Re-style committed assistant replies in different formats via sub-context regeneration
+
+receipt:
+  label: Receipt
+  permalink: /receipt
+  description: Per-message provenance receipts — generation duration, token estimate, shape, tool calls
