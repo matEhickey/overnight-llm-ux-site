@@ -3,6 +3,11 @@ ux:
   permalink: /ux
   description: UX explorations and demos
 
+diff:
+  label: Diff
+  permalink: /diff
+  description: Side-by-side comparison surfaces between model outputs
+
 model:
   label: Model
   permalink: /model
