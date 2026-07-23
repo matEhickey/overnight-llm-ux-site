@@ -106,3 +106,8 @@ receipt:
   label: Receipt
   permalink: /receipt
   description: Per-message provenance receipts — generation duration, token estimate, shape, tool calls
+
+playback:
+  label: Playback
+  permalink: /playback
+  description: Time-based playback surfaces — replay and re-experience finished conversations
