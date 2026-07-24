@@ -111,3 +111,8 @@ playback:
   label: Playback
   permalink: /playback
   description: Time-based playback surfaces — replay and re-experience finished conversations
+
+persona:
+  label: Persona
+  permalink: /persona
+  description: Persona switching — swap system prompt, tone, and avatar in one click
