@@ -116,3 +116,8 @@ persona:
   label: Persona
   permalink: /persona
   description: Persona switching — swap system prompt, tone, and avatar in one click
+
+suggestions:
+  label: Suggestions
+  permalink: /suggestions
+  description: Forward-suggestion UX — AI-generated next-step prompts as clickable chips
