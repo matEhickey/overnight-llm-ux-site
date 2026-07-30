@@ -121,3 +121,11 @@ suggestions:
   label: Suggestions
   permalink: /suggestions
   description: Forward-suggestion UX — AI-generated next-step prompts as clickable chips
+pre-flight:
+  label: Pre-Flight
+  permalink: /pre-flight
+  description: Composer-stage safety gate for sensitive data.
+safety:
+  label: Safety
+  permalink: /safety
+  description: Privacy and safety UX — pre-flight scanning and disclosure patterns
