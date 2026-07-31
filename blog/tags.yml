@@ -129,3 +129,7 @@ safety:
   label: Safety
   permalink: /safety
   description: Privacy and safety UX — pre-flight scanning and disclosure patterns
+annotations:
+  label: Annotations
+  permalink: /annotations
+  description: Per-fragment user-authored notes attached to assistant replies — select any text, write a margin note, persist locally
