@@ -133,3 +133,12 @@ annotations:
   label: Annotations
   permalink: /annotations
   description: Per-fragment user-authored notes attached to assistant replies — select any text, write a margin note, persist locally
+workspace:
+  label: Workspace
+  permalink: /workspace
+  description: Spatial / 2D workspace affordances for inspecting and arranging assistant replies
+
+spatial:
+  label: Spatial
+  permalink: /spatial
+  description: Spatial UX — drag, drop, resize, pin, layer-panel patterns over flat chat
