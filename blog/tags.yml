@@ -142,3 +142,8 @@ spatial:
   label: Spatial
   permalink: /spatial
   description: Spatial UX — drag, drop, resize, pin, layer-panel patterns over flat chat
+
+shape-responsive:
+  label: Shape-Responsive
+  permalink: /shape-responsive
+  description: Layouts that reflow based on the classified response shape (paragraph, list, code+prose, sections)
