@@ -147,3 +147,8 @@ shape-responsive:
   label: Shape-Responsive
   permalink: /shape-responsive
   description: Layouts that reflow based on the classified response shape (paragraph, list, code+prose, sections)
+
+adaptive-layout:
+  label: Adaptive Layout
+  permalink: /adaptive-layout
+  description: Responsive-first layouts that reflow based on the viewport (phone, tablet, desktop, wide) using container queries and CSS clamp()
