@@ -152,3 +152,8 @@ adaptive-layout:
   label: Adaptive Layout
   permalink: /adaptive-layout
   description: Responsive-first layouts that reflow based on the viewport (phone, tablet, desktop, wide) using container queries and CSS clamp()
+
+tide:
+  label: Tide
+  permalink: /tide
+  description: Reading-rhythm aware UX — scroll position, idle time, and visual bloom that follows the reader's attention
