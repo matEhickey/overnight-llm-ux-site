@@ -3,6 +3,11 @@ ux:
   permalink: /ux
   description: UX explorations and demos
 
+comfort:
+  label: Comfort
+  permalink: /comfort
+  description: Reading, motion, and presentation preferences for local chat
+
 diff:
   label: Diff
   permalink: /diff
