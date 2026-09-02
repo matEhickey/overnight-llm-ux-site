@@ -162,3 +162,8 @@ tide:
   label: Tide
   permalink: /tide
   description: Reading-rhythm aware UX — scroll position, idle time, and visual bloom that follows the reader's attention
+
+navigation:
+  label: Navigation
+  permalink: /navigation
+  description: Conversation-level navigation — wayfinding, scroll-position tracking, jump-to-message
