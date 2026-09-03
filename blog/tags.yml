@@ -167,3 +167,8 @@ navigation:
   label: Navigation
   permalink: /navigation
   description: Conversation-level navigation — wayfinding, scroll-position tracking, jump-to-message
+
+vault:
+  label: Vault
+  permalink: /vault
+  description: Cross-session snippet library — user-captured highlights from assistant replies, with search + tags
