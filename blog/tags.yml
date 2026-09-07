@@ -172,3 +172,8 @@ vault:
   label: Vault
   permalink: /vault
   description: Cross-session snippet library — user-captured highlights from assistant replies, with search + tags
+
+composer:
+  label: Composer
+  permalink: /composer
+  description: Composer-stage affordances for the chat input (counter, shape classifier, slash picker)
