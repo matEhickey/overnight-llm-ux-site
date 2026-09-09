@@ -177,3 +177,8 @@ composer:
   label: Composer
   permalink: /composer
   description: Composer-stage affordances for the chat input (counter, shape classifier, slash picker)
+
+scrub:
+  label: Scrub
+  permalink: /scrub
+  description: Timeline scrubber and conversation playback surfaces
