@@ -182,3 +182,8 @@ scrub:
   label: Scrub
   permalink: /scrub
   description: Timeline scrubber and conversation playback surfaces
+
+cue-cards:
+  label: Cue Cards
+  permalink: /cue-cards
+  description: Pre-submit input augmentation chips
