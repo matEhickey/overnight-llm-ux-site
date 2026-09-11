@@ -187,3 +187,8 @@ cue-cards:
   label: Cue Cards
   permalink: /cue-cards
   description: Pre-submit input augmentation chips
+
+inference-pulse:
+  label: Inference Pulse
+  permalink: /inference-pulse
+  description: Live in-flight stream telemetry strip — tokens/sec, TTFT, and a chunk-rate pulse bar
