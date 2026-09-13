@@ -192,3 +192,8 @@ inference-pulse:
   label: Inference Pulse
   permalink: /inference-pulse
   description: Live in-flight stream telemetry strip — tokens/sec, TTFT, and a chunk-rate pulse bar
+
+soft-bookmark:
+  label: Soft Bookmark
+  permalink: /soft-bookmark
+  description: Per-message, cross-conversation bookmarking of individual assistant replies
