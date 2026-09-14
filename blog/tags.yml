@@ -197,3 +197,8 @@ soft-bookmark:
   label: Soft Bookmark
   permalink: /soft-bookmark
   description: Per-message, cross-conversation bookmarking of individual assistant replies
+
+reply-ratings:
+  label: Reply Ratings
+  permalink: /reply-ratings
+  description: Per-bubble 👍/👎 feedback with a per-model stats sheet
