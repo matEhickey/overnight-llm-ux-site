@@ -202,3 +202,8 @@ reply-ratings:
   label: Reply Ratings
   permalink: /reply-ratings
   description: Per-bubble 👍/👎 feedback with a per-model stats sheet
+
+prompt-refiner:
+  label: Prompt Refiner
+  permalink: /prompt-refiner
+  description: Live, automatic, in-input prompt coaching — heuristic hint chips below the textarea
